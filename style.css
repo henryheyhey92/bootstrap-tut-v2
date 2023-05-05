@@ -1,3 +1,50 @@
 .test {
-    background-color: yellow;
+  background-color: yellow;
+}
+
+.google-font {
+  font-family: "Pacifico", cursive;
+}
+
+
+#myVideo {
+    /* position: absolute;
+    top: 0; */
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline-one {
+    font-size: 1.2rem;
+}
+
+.sub-headline {
+    font-size: 0.65rem;
+}
+
+@media screen and (max-width: 567px) {
+    .google-font {
+        color: red;
+    }
+    .headline-one {
+        font-size: 0.7rem;
+    }
+    
+    .sub-headline {
+        font-size: 0.5rem;
+    }
+
+    .navbar--color{
+        background-color: white !important;
+    }
+
 }
