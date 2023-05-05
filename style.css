@@ -15,6 +15,12 @@
     object-fit: cover;
 }
 
+.product-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .product-info {
     display: flex;
