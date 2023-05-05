@@ -6,51 +6,59 @@
   font-family: "Pacifico", cursive;
 }
 
-
 #myVideo {
-    /* position: absolute;
+  /* position: absolute;
     top: 0; */
-    width: 100vw;
-    height: 500px;
-    object-fit: cover;
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
 }
 
 .product-items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .product-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .headline-one {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .sub-headline {
-    font-size: 0.65rem;
+  font-size: 0.65rem;
 }
 
 @media screen and (max-width: 567px) {
-    .google-font {
-        color: red;
-    }
-    .headline-one {
-        font-size: 0.7rem;
-    }
-    
-    .sub-headline {
-        font-size: 0.5rem;
-    }
+  .google-font {
+    color: red;
+  }
+  .headline-one {
+    font-size: 0.7rem;
+  }
 
-    .navbar--color{
-        background-color: white !important;
-    }
+  .sub-headline {
+    font-size: 0.5rem;
+  }
 
+  .navbar--color {
+    background-color: white !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: gray;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
 }
